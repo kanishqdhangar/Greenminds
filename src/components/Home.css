@@ -1,0 +1,249 @@
+.body{
+    width: 100%;
+}
+.first {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('/GreenMinds.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire area */
+    /* background-position: center; Center the image */
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center; Center content vertically */
+    color: white; /* Change text color for better contrast */
+  }
+
+  .top{
+    /* flex-direction: ; */
+    display: flex;
+    color:black;
+    background-color: darkseagreen;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 25vh;
+  }
+  
+  .header {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space between title and navigation */
+    /* align-items: center; Center items vertically */
+    width: 100%; /* Ensure it spans the full width */
+    padding: 0 20px; /* Add some padding for spacing */
+    font-size: larger;
+    font-weight: normal;
+  }
+  
+  .title {
+    margin-left: 120px;
+    margin-top: 40px;
+    color: green;
+    text-decoration: none;
+
+  }
+
+  .title a{
+    text-decoration: none;
+    color:green;
+  }
+  
+  .navigation {
+    display: flex; /* Use flexbox for navigation items */
+    margin-right: 120px;
+    margin-top: 80px;
+    font-size: larger;
+    font-weight: normal;
+  }
+  
+  .navigation a {
+    margin-left: 40px; /* Space between navigation items */
+    cursor: pointer; /* Optional: change cursor to pointer for better UX */
+    color:black;
+    text-decoration: none;
+  }
+
+  .footer{
+    background-color:seagreen;
+    height: 70vh;
+    margin-top: 80px;
+  }
+
+  .contactus{
+    color:whitesmoke;
+    padding-top: 40px;
+    /* margin-left: 80px; */
+  }
+  
+  .moto{    
+    margin-left: 550px;
+  }
+
+  .line1{
+    /* max-width: 250px; */
+    margin-top: 480px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+  }
+
+  .line2{
+    /* max-width: 250px; */
+    margin-top: 0px;
+    font-size: xx-large;
+  }
+
+  .third{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services{
+    width:95%;
+    height:auto;
+    align-self: center;
+    background-color: darkseagreen;
+    padding-bottom: 40px;
+  }
+
+  .heading1{
+    font-size: xxx-large;
+    padding-left: 40px;
+  }
+
+  .content-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px; */
+  }
+
+  .con1{
+    padding-right: 20px;
+    width:25%;
+    font-size: x-large;
+  }
+
+  .con1 h2{
+    font-weight: normal;
+  }
+
+  .con2{
+    padding-right: 20px;
+    width:25%;
+    font-size: x-large;
+  }
+
+  .con2 h2{
+    font-weight: normal;
+  }
+
+  .con3{
+    width:25%;
+    font-size: x-large;
+  }
+
+  .con3 h2{
+    font-weight: normal;
+  }
+
+  .heading2{
+    font-size: xxx-large;
+    padding-left: 80px;
+  }
+
+  .heading3{
+    font-size: xx-large;
+    padding-left: 110px;
+  }
+
+  .ins1{
+    max-width: 35%;
+  }
+
+  .ins2{
+    max-width: 35%;
+  }
+
+  .ins1 p{
+    padding-left: 110px;
+    font-size: large;
+  }
+
+  .second{
+    width:95%;
+    margin-top: 80px;
+    display:flex;
+  }
+  .content{
+    padding-left: 80px;
+    font-size: x-large;
+    width:50%;
+    margin-bottom: 80px;
+  }
+
+  .office{
+    margin-top: 40px;
+  }
+
+  .contactus p{
+    padding-left: 110px;
+    margin-top: 30px;
+    font-size: larger;
+  }
+
+  .office p{
+    padding-left: 110px;
+    font-size: large;
+  }
+
+  .greenminds{
+    padding-left: 80px;
+    font-size: x-large;
+    width:50%;
+    margin-bottom: 80px;
+  }
+
+  .box{
+    display: flex;
+  }
+
+  .images2 img{
+    width:250px;
+    margin-left:40px;
+  }
+
+  .images1 img{
+    width:250px;
+    margin-left:110px;
+  }
+
+  .heading4{
+    font-size: xx-large;
+    padding-left: 40px;
+  }
+
+  .ins2 p{
+    padding-left: 40px;
+    font-size: large;
+  }
+
+  .img img{
+    width: fit-content;
+    height: 50%;
+    margin-left: 130px;
+    margin-top: 80px;
+  }
+
+  .img p{
+    margin-left: 245px;
+    font-weight: bold;
+    font-size: large;
+  }
